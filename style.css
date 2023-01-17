@@ -148,7 +148,7 @@ header nav {
 }
 
 .page-1-left a {
-    padding: 15px 60px;
+    padding: 15px 50px;
     color: white;
     font-weight: 600;
     border-radius:5px;
@@ -158,6 +158,22 @@ header nav {
 
 .page-1-left a:hover {
     opacity: 0.7;
+}
+
+
+.pre-btn {
+    display: inline;
+    font-size: 17px;
+    font-weight: 600;
+}
+.icon-btn {
+    display: inline-block;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.page-1-left a:hover .icon-btn {
+    transform: rotate(90deg);
 }
 
 /* page-1-right */
@@ -468,7 +484,6 @@ hr {
 }
 
 
-
 /* Page-5 */
 /* Contact */
 
@@ -551,6 +566,7 @@ footer p {
 
 footer a {
     color: white;
+    transition: 0.5s;
 }
 
 footer pre {
@@ -559,6 +575,9 @@ footer pre {
     padding: 0;
 }
 
+footer pre a:hover {
+    opacity: 0.8;
+}
 
 .tap {
     display: block;
@@ -788,6 +807,12 @@ footer pre {
     }
     .page-1-left {
         padding-left: 60px;
+    }
+    .pre-btn {
+        display: none;
+    }
+    .icon-btn {
+        display: none;
     }
 }
 
