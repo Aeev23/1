@@ -1,205 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
-    <title>Template One</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kasper | Template</title>
 </head>
 <body>
     <!-- Navbar -->
-    <header>
-        <div class="container">
-            <div class="nav-left">
-                <img src="img/logo.png"/>
-            </div>
-            <div class="nav-right">
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="nav-icon">
-                    <span class="nav-icon-1"></span>
-                    <span class="nav-icon-2"></span>
-                    <span class="nav-icon-3"></span>
+    <div class="full-home" id="home">
+        <div class="full-2-home">
+            <header>
+                <div class="container">
+                    <div class="nav-left">
+                        <img src="img/logo.png"/>
+                    </div>
+                    <div class="nav-right">
+                        <ul>
+                            <li><a class="active" href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <div class="nav-menu"><i class="fa-solid fa-bars"></i></div>
+                        <div class="form">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </header>
+            <!-- Home -->
+            <section class="home">
+                    <div class="home-text">
+                        <div class="home-cont">
+                            <h3>Hello World! <br>We Are Kasper We Make Art.</h3>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                        </div>
+                    </div>
+            </section>
         </div>
-    </header>
-    <!-- Home -->
-    <section class="home">
-        <div class="home-text">
-            <h3>Hello There</h3>
-            <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
-        </div>
-    </section>
-    <section class="home-2">
-        <div class="container">
-            <div class="home-2-cont">
-                <div class="home-2-card">
-                    <div class="home-2-icon">
-                        <i class="fas fa-magic fa-3x"></i>
-                    </div>
-                    <div class="home-2-text">
-                        <h3>Tell Us Your Idea</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
-                    </div>
-                </div>
-                <div class="home-2-card">
-                    <div class="home-2-icon">
-                        <i class="far fa-gem fa-3x"></i>
-                    </div>
-                    <div class="home-2-text">
-                        <h3>We Will Do All The Work</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
-                    </div>
-                </div>
-                <div class="home-2-card">
-                    <div class="home-2-icon">
-                        <i class="fas fa-globe-asia fa-3x"></i>
-                    </div>
-                    <div class="home-2-text">
-                        <h3>Your Product is Worldwide</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- services -->
+    </div>
+    <!-- Services -->
     <section class="services" id="services">
         <div class="container">
-            <div class="title">Services</div>
-            <div class="title-2">Don't be busy, be productive</div>
+        <div class="title">SERVICES</div>
+        <hr class="hr-title">
+        <div class="services-text-title">
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                blandit aliquet elit, eget tincidunt.</p>
+            </div>
             <div class="services-cont">
-                <div class="services-cont-1">
-                    <div class="services-card">
-                        <div class="services-icon">
-                            <i class="fas fa-palette fa-2x"></i>
-                        </div>
-                        <div class="services-text">
-                            <h3>Graphic Design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nisi esse, ipsam doloribus officiis veritatis veniam velit amet, ex, magnam debitis? Consequuntur in unde nihil similique quas eaque laborum maiores.</p>
-                        </div>
-                    </div>  
-                    <div class="services-card">
-                        <div class="services-icon">
-                            <i class="fab fa-sketch fa-2x"></i>
-                        </div>
-                        <div class="services-text">
-                            <h3>UI & UX</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt repellendus distinctio eveniet suscipit! Perspiciatis voluptatibus id adipisci tenetur, atque aliquid reiciendis sunt dolorem omnis, vitae molestias quas, voluptate nulla.</p>
-                        </div>
+                <div class="services-card">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-display"></i>
+                    </div>
+                    <div class="services-text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at 
+                            sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar 
+                            a. Curabitur aliquet quam.</p>
                     </div>
                 </div>
-                <div class="services-cont-2">
-                    <div class="services-card">
-                        <div class="services-icon">
-                            <i class="fas fa-vector-square fa-2x"></i>
-                        </div>
-                        <div class="services-text">
-                            <h3>Web Design</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus alias odio adipisci error odit labore hic beatae illo voluptate! Nesciunt maiores vero architecto impedit autem quos ut. Autem, error cupiditate!</p>
-                        </div>
+                <div class="services-card">
+                    <div class="services-icon-2">
+                        <i class="fas fa-cog fa-3x"></i>
                     </div>
-                    <div class="services-card">
-                        <div class="services-icon">
-                            <i class="fas fa-pencil-ruler fa-2x"></i>
-                        </div>
-                        <div class="services-text">
-                            <h3>Web Development</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero earum esse nesciunt placeat ipsam voluptatem aliquam molestias quam! Nisi doloribus optio magni soluta temporibus. Aut sunt expedita quod voluptatibus dolor?</p>
-                        </div>
+                    <div class="services-text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at 
+                            sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar 
+                            a. Curabitur aliquet quam.</p>
                     </div>
                 </div>
-                <div class="services-cont-3">
-                    <div class="services-img services-card">
-                        <img src="img/services.jpg"/>
+                <div class="services-card">
+                    <div class="services-icon-2">
+                        <i class="fas fa-pencil-ruler fa-3x"></i>
+                    </div>
+                    <div class="services-text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at 
+                            sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar 
+                            a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <div class="services-icon-2">
+                        <i class="fas fa-camera fa-3x"></i>
+                    </div>
+                    <div class="services-text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at 
+                            sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar 
+                            a. Curabitur aliquet quam.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Services-2 -->
+    <div class="services-2">
+        <div class="services-2-full">
+            <div class="services-2-cont">
+                <div class="services-2-img">
+                    <img src="img/mobile.png"/>
+                </div>
+                <div class="services-2-text">
+                    <div class="services-2-cont">
+                        <h2 class="services-2-text-1">OUR DESIGNS COMES WITH...</h2>
+                        <p class="services-2-text-2"><span class="services-2-span"><i class="fa-solid fa-display"></i></span> Responsive Design</p>
+                        <p class="services-2-text-3"><span class="services-2-span"><i class="fa-solid fa-display"></i></span> Modern And Clean Design</p>
+                        <p class="services-2-text-4"><span class="services-2-span"><i class="fa-solid fa-display"></i></span> Clean Code</p>
+                        <p class="services-2-text-5"><span class="services-2-span"><i class="fa-solid fa-display"></i></span> Browser Friendly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
         <div class="container">
-            <div class="title">Portfolio</div>
-            <div class="title-2">If you do it right, it will last forever.</div>
-            <div class="portfolio-cont"> 
-                <div class="portfolio-card">
-                    <div class="portfolio-img">
-                        <img src="img/portfolio-1.jpg"/>
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
-                    </div>
-                </div>
-                <div class="portfolio-card">
-                    <div class="portfolio-img">
-                        <img src="img/portfolio-2.jpg"/>
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
-                    </div>
-                </div>
-                <div class="portfolio-card">
-                    <div class="portfolio-img">
-                        <img src="img/portfolio-3.jpg"/>
-                    </div>
-                    <div class="portfolio-text">
-                        <h3>Project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
-                    </div>
-                </div>
+            <div class="title">PORTFOLIO</div>
+            <hr class="hr-title">
+            <div class="portfolio-text-title services-text-title">
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                    blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="portfolio-list">
+                <ul>
+                    <li class="portfolio-list-1">All</li>
+                    <li>App</li>
+                    <li>Photo</li>
+                    <li>Web</li>
+                    <li>Print</li>
+                </ul>
             </div>
         </div>
+            <div class="portfolio-img">
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-1.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-2.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-3.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-4.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-5.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-6.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-7.jpg"/>
+                </div>
+                <div class="portfolio-img-1">
+                    <img src="img/portfolio-8.jpg"/>
+                </div>
+            </div>
     </section>
+    <!-- Portfolio-2 -->
+    <div class="portfolio-2">
+        <div class="video">
+            <video autoplay muted loop>
+                <source src="img/awesome-video.mp4" type="video/mp4">
+            </video>
+            <div class="portfolio-2-text">
+                <h2>SUPER AWESOME VIDEO HERE</h2>
+                <p class="portfolio-2-text-p-1">Its All You Need</p>
+                <a>SEE MORE<pre class="pre-btn"> <div class="icon-btn"><i class="fa-solid fa-arrow-right"></div></i></pre></a>
+            </div>
+        </div>
+    </div>
     <!-- About -->
     <section class="about" id="about">
         <div class="container">
-            <div class="title">About</div>
-            <div class="title-2">Less is more work</div>
+            <div class="title">ABOUT US</div>
+            <hr class="hr-title">
+            <div class="about-text-title services-text-title">
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                    blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="about-img">
+                <img src="img/about.png"/>
+            </div>
+        </div>
+        <div class="about-img-2">
             <div class="about-cont">
-                <div class="about-img">
-                    <img src="img/about.jpg"/>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-text-p1">1.236</p>
+                        <p class="about-text-p2">Coffee Drinks</p>
+                    </div>
                 </div>
-                <div class="about-text">
-                    <p class="about-text-p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non, fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!</p>
-                    <hr class="about-hr">
-                    <p class="about-text-p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique inventore esse, alias, sed quo officia?</p>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="far fa-folder"></i>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-text-p1">256</p>
+                        <p class="about-text-p2">Completed Projects</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-text-p1">1,743</p>
+                        <p class="about-text-p2">Mail Sent</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-text-p1">17</p>
+                        <p class="about-text-p2">Awards Received</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact  -->
+    <!-- About-2 -->
+    <div class="about-2">
+        <div class="container">
+            <div class="about-2-area">
+                <div class="about-2-left">
+                    <div class="about-2-left-title">
+                        <p class="about-2-left-title-1">TESTIMONIALS</p>
+                        <p class="about-2-left-title-2">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                            blandit aliquet elit, eget tincidunt.</p>
+                    </div>
+                    <div class="about-2-left-cont">
+                        <div class="about-2-left-cont-1">
+                            <div class="about-2-left-cont-1-img">
+                                <img src="img/skills-01.jpg"/>
+                            </div>
+                            <div class="about-2-left-cont-1-text">
+                                <p class="about-2-left-cont-1-text-1">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                                <p class="about-2-left-cont-1-text-2">John Doe, CEO</p>
+                            </div>
+                        </div>
+                        <div class="about-2-left-cont-2 about-2-left-cont-1">
+                            <div class="about-2-left-cont-1-img">
+                                <img src="img/skills-02.jpg"/>
+                            </div>
+                            <div class="about-2-left-cont-1-text">
+                                <p class="about-2-left-cont-1-text-1">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                                <p class="about-2-left-cont-1-text-2">John Doe, CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-2-right">
+                    <div class="about-2-left-title about-2-left-title">
+                        <p class="about-2-right-title-1 about-2-left-title-1">SKILLS</p>
+                        <p class="about-2-right-title-2 about-2-left-title-2">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                            blandit aliquet elit, eget tincidunt.</p>
+                    </div>
+                    <p class="progress-text-p">ADOBE</p>
+                    <div class="progress">
+                        <div class="progress-bar"></div>
+                        <div class="progress-bar-l"></div>
+                    </div>
+                    <p class="progress-text-p">HTML & CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-2"></div>
+                        <div class="progress-bar-l progress-bar-l-2"></div>
+                    </div>
+                    <p class="progress-text-p">JAVASCRIPT</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-3"></div>
+                        <div class="progress-bar-l progress-bar-l-3"></div>
+                    </div>
+                    <p class="progress-text-p">PHP</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-4"></div>
+                        <div class="progress-bar-l progress-bar-l-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About-3 -->
+    <div class="about-3">
+        <div class="about-3-cont">
+            <div class="about-3-text">
+                <h3><q> accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget<br> tincidunt </q></h3>
+                <p>John Doe</p>
+            </div>
+        </div>
+    </div>
+    <!-- PRICING -->
+    <section class="PRICING" id="pricing">
+        <div class="container">
+            <div class="title">PRICING</div>
+            <hr class="hr-title">
+            <div class="about-text-title services-text-title">
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                    blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="PRICING-cont">
+                <div class="PRICING-card">
+                    <div class="PRICING-header">
+                        <h3>BASIC</h3>
+                        <span>19</span>
+                    </div>
+                    <div class="PRICING-main">
+                        <p class="PRICING-main-1">Feature No 1</p>
+                        <p class="PRICING-main-2">Extra Feature</p>
+                        <p class="PRICING-main-3">Extra Feature No 2</p>
+                        <p class="PRICING-main-4">Feature</p>
+                    </div>
+                    <div class="PRICING-end">
+                        <div class="PRICING-end-text">Buy Now</div>
+                    </div>
+                </div>
+                <div class="PRICING-card">
+                    <div class="PRICING-header">
+                        <h3>PREMIUM</h3>
+                        <span>29</span>
+                    </div>
+                    <div class="PRICING-main">
+                        <p class="PRICING-main-1">Feature No 1</p>
+                        <p class="PRICING-main-2">Extra Feature</p>
+                        <p class="PRICING-main-3">Extra Feature No 2</p>
+                        <p class="PRICING-main-4">Feature</p>
+                    </div>
+                    <div class="PRICING-end">
+                        <div class="PRICING-end-text">Buy Now</div>
+                    </div>
+                </div>
+                <div class="PRICING-card">
+                    <div class="PRICING-header">
+                        <h3>PRO</h3>
+                        <span>39</span>
+                    </div>
+                    <div class="PRICING-main">
+                        <p class="PRICING-main-1">Feature No 1</p>
+                        <p class="PRICING-main-2">Extra Feature</p>
+                        <p class="PRICING-main-3">Extra Feature No 2</p>
+                        <p class="PRICING-main-4">Feature</p>
+                    </div>
+                    <div class="PRICING-end">
+                        <div class="PRICING-end-text">Buy Now</div>
+                    </div>
+                </div>
+                <div class="PRICING-card">
+                    <div class="PRICING-header">
+                        <h3>PLATINUM</h3>
+                        <span>49</span>
+                    </div>
+                    <div class="PRICING-main">
+                        <p class="PRICING-main-1">Feature No 1</p>
+                        <p class="PRICING-main-2">Extra Feature</p>
+                        <p class="PRICING-main-3">Extra Feature No 2</p>
+                        <p class="PRICING-main-4">Feature</p>
+                    </div>
+                    <div class="PRICING-end">
+                        <div class="PRICING-end-text">Buy Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="PRICING-Contact">
+                <div class="PRICING-Contact-text">
+                    <p class="PRICING-Contact-text-1">Contact us if you have special request</p>
+                    <a class="PRICING-Contact-text-2">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="PRICING-2">
+            <div class="PRICING-2-cont">
+                <div class="PRICING-2-fill">
+                    <div class="container">
+                        <div class="PRICING-2-form-a">
+                            <div class="PRICING-2-form-icon"><i class="far fa-envelope fa-lg"></i></div>
+                            <form action="">
+                                <input class="PRICING-2-form-1" type="text" placeholder="Your Email">
+                                <input class="PRICING-2-form-2" type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                        <div class="PRICING-2-text">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet<br>elit, eget tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
     <section class="contact" id="contact">
         <div class="container">
-            <div class="title">Contact</div>
-            <div class="title-2">We are born to create</div>
-            <div class="contact-text">
-                <h3 class="contact-h3-1">Feel free to drop us a line at:</h3>
-                <a href="https://www.instagram.com/i6slz_/" target="_blank"><h3 class="contact-h3-2">leonagency@mail.com</h3></a>
-                <p class="contact-p">Find Us On Social Networks 
-                    <a href="https://www.instagram.com/i6slz_/" target="_blank"><span class="contact-icon-1"><i class="fab fa-youtube"></i></span></a>
-                    <a href="https://www.instagram.com/i6slz_/" target="_blank"><span class="contact-icon-2"><i class="fab fa-facebook-f"></i></span></a>
-                    <a href="https://www.instagram.com/i6slz_/" target="_blank"><span class="contact-icon-3"><i class="fab fa-twitter"></i></span></a>
-                </p>
+            <div class="title">CONTACT US</div>
+            <hr class="hr-title">
+            <div class="about-text-title services-text-title">
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. <br> Mauris 
+                    blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="contact-cont">
+                <div class="contact-form">
+                    <form action="">
+                        <input class="contact-form-1" type="text" placeholder="Your Name"><br>
+                        <input class="contact-form-2" type="text" placeholder="Your Email"><br>
+                        <textarea class="contact-form-3" placeholder="Your Message"></textarea>
+                        <input class="contact-form-btn" type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="contact-text">
+                    <div class="contact-text-1-head">GET IN TOUCH</div>
+                    <div class="contact-text-2">+00 123.456.789</div>
+                    <div class="contact-text-3 contact-text-2">+00 123.456.789</div>
+                    <div class="contact-text-4-head contact-text-1-head">WHERE WE ARE</div>
+                    <div class="contact-text-5 contact-text-2"><address>Awesome Address 17</address></div>
+                    <div class="contact-text-6 contact-text-2"><address>New York, NYC</address></div>
+                    <div class="contact-text-7 contact-text-2"><address>123-4567-890</address></div>
+                    <div class="contact-text-8 contact-text-2"><address>USA</address></div>
+                </div>
             </div>
         </div>
     </section>
     <!-- Footer -->
     <footer>
-        <p>© 2023 <span>Leon</span> All Right Reserved</p>
+        <div class="footer-cont">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="img/logo.png"/>
+                </div>
+                <div class="footer-text">
+                    <p>WE ARE SOCIAL</p>
+                </div>
+                <div class="footer-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fas fa-home"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="footer-text-end">
+                    <p>Created By <a href="https://www.instagram.com/i6slz_/" target="_blank">Ahmed Magdy</a></p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
-
